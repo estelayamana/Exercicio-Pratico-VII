@@ -1,0 +1,16 @@
+/*
+Crie um array chamado família e nesse array salve 3 objetos. 
+
+Cada objeto deve ter algumas informações de alguém da família: nome, idade, corPreferida (...). 
+Por fim, crie uma função que utilize estruturas de repetição (for ou while) para varrer o array família e exibir no console as informações dos objetos.
+*/
+let Familia = [{NomePai "Marco", idadePai "42", corPreferidaPai "Azul"}, 
+{NomeVovó "Maria"; idadeVovó "63"; corpreferidaVovó "Branco"}, 
+{NomeFilho "Archie"; idadefilho "1"; corpreferidaFilho "Amarelo"}],
+let i = 0
+function objetos (familia) 
+{while(i < familia.length) 
+    {console.log(familia[i]);i++}
+}
+objetos(familia)
+
